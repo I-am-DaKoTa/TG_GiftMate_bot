@@ -21,4 +21,4 @@
 <p>Этот проект находится под лицензией MIT.</p>
 
 <h2>Автор и Связь</h2>
-<p>Кузнецов Артур - arturkuz.dkt@gmail.com / https://t.me/i_am_dak0ta / https://vk.com/i_am_dak0ta</p>
+<p>Кузнецов Артур Геннадьевич - arturkuz.dkt@gmail.com / https://t.me/i_am_dak0ta / https://vk.com/i_am_dak0ta</p>
