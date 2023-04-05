@@ -570,7 +570,7 @@ def add_phone_number(message):
                     cmd_wishlist(message)
                 else:
                     bot.send_message(message.from_user.id,
-                                     "<b>❗️ Ошибка.</b> Данный номер телефона уже зарегестрирован.", parse_mode='html')
+                                     "<b>❗️ Ошибка.</b> Данный номер телефона уже зарегистрирован.", parse_mode='html')
                     cmd_home(message)
             else:
                 bot.send_message(message.from_user.id,
