@@ -1044,12 +1044,12 @@ def get_text_messages(message):
 
     else:
         msg = message.text.lower()
-        if msg == "привет" or msg == "привет!" or msg == "привет.":
-            bot.send_message(message.from_user.id, 'Привет!')
-        elif msg == "как дела" or msg == "как дела?" or msg == "как дела.":
-            bot.send_message(message.from_user.id, 'Хорошо!')
-        elif msg == 'что делаешь' or msg == "что делаешь?" or msg == "что делаешь.":
-            bot.send_message(message.from_user.id, 'Создаю списки желаний.')
+        if msg in ("привет", "привет!", "привет."):
+            bot.send_message(message.from_user.id, "Привет!")
+        elif msg in ("как дела", "как дела?", "как дела."):
+            bot.send_message(message.from_user.id, "Хорошо!")
+        elif msg in ("что делаешь", "что делаешь?", "что делаешь."):
+            bot.send_message(message.from_user.id, "Создаю списки желаний.")
 
 
 # Обработка фото
